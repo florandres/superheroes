@@ -4,5 +4,6 @@
 }
 
 body{
-	background-image: url("images/fondo.jpg");
+	background-image: url('images/fondo.jpg');
+
 }
