@@ -7,3 +7,52 @@ body{
 	background-image: url('images/fondo.jpg');
 
 }
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.7;
+    filter: alpha(opacity=60);
+    scroll-behavior: fixed;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: fuenteMayus;
+    font-size: 160%;
+}
+
+@font-face {
+    font-family: fuenteMayus;
+    src: url('/fonts/CapitalisTypOasis.ttf');
+}
+
+.active {
+    background-color: red;
+    color: white;
+}
+
+.logos {
+	padding: 5px 5px 5px 5px;
+	width: 150px;
+	height: 100px;
+	margin: 10px 10px 10px 10px;
+}
