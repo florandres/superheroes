@@ -15,9 +15,9 @@
 	<div class="transbox">
 	  	<header><h1>Superheroes</h1>
 		<ul id="navbar">
-			<li><a class="active" href="#dc">DC</a></li>
-			<li><a href="#marvel">Marvel</a></li>
-			<li><a href="#animados">Animados</a></li>
+			<li><a id="dc" class="active" href="#dc" onclick="change(this.id)">DC</a></li>
+			<li><a id="marvel" href="#marvel" onclick="change(this.id)">Marvel</a></li>
+			<li><a id="animados" href="#animados" onclick="change(this.id)">Animados</a></li>
 		</ul>
 		</header>
 <section>
@@ -43,4 +43,25 @@
 
 
 </body>
+
+<script>
+	function change(id){
+		document.querySelector(".active").classList.remove("active");
+		//id.classList.add("active");
+		document.querySelector("#"+id).classList.add("active");
+
+
+
+	}
+
+
+			
+
+				
+
+
+
+
+</script>
+
 </html>
