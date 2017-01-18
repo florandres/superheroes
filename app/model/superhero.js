@@ -6,6 +6,12 @@ module.exports = mongoose.model('Superhero', {
 	aliados: string;
 	habilidades: string;
 	superpoder: string;
+	enemigos: string;
+	conexiones: string;
+	pareja: string;
+	padre: string;
+	madre: string;
+	hijos: string;
 	origen {
 		type: string;
 		enum: ['No humano', 'Natural', 'Experimento científico', 'Tecnología/Artefactos', 'Traumas'];
