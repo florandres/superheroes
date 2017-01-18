@@ -1,0 +1,46 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Superheroes</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="angular/style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.js">
+    </script>
+</head>
+
+<body ng-app>
+
+	<div class="transbox">
+	  	<header><h1>Superheroes</h1>
+		<ul id="navbar">
+			<li><a class="active" href="#dc">DC</a></li>
+			<li><a href="#marvel">Marvel</a></li>
+			<li><a href="#animados">Animados</a></li>
+		</ul>
+		</header>
+<section>
+		<article id="batsy">
+			<img class="logos" src="angular/images/batman.png" ng-mouseenter="show = true" ng-mouseleave="show = false"/>
+			<span class="batsy" ng-show="show">Batman</span>
+
+		</article>
+		
+</section>
+		</div>
+
+
+
+		
+		<aside></aside>
+
+		<footer>
+			<p> Página hecha en MEAN stack por Flor y Antu.</p>
+
+		</footer>
+  	</div>
+
+
+</body>
+</html>
