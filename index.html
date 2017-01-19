@@ -14,21 +14,36 @@
 
 	<div class="transbox">
 	  	<header><h1>Superheroes</h1>
+	  	</header>
 		<ul id="navbar">
 			<li><a id="dc" class="active" href="#dc" onclick="change(this.id)">DC</a></li>
 			<li><a id="marvel" href="#marvel" onclick="change(this.id)">Marvel</a></li>
 			<li><a id="animados" href="#animados" onclick="change(this.id)">Animados</a></li>
 		</ul>
-		</header>
+		
 <section>
-		<article id="batsy">
-			<img class="logos" src="angular/images/batman.png" ng-mouseenter="show = true" ng-mouseleave="show = false"/>
-			<span class="batsy" ng-show="show">Batman</span>
+		<ul class="photo-grid">
+			<li>
+				<figure>
+					<img src="angular/images/batman.png"  height="180" width="320" alt="Batman">
+					<figcaption><p>Batman</p></figcaption>
+				</figure>	
+				
+			</li>
 
-		</article>
+			<li>
+				<figure>
+					<img src="angular/images/superman.png" height="180" width="320" alt="Superman">
+					<figcaption><p>Superman</p></figcaption>
+				</figure>
+
+			</li>
+
+
+		</ul>
 		
 </section>
-		</div>
+		
 
 
 
@@ -36,7 +51,7 @@
 		<aside></aside>
 
 		<footer>
-			<p> Página hecha en MEAN stack por Flor y Antu.</p>
+			<p> Página hecha en MEAN stack por Flor, Mel y Antu.</p>
 
 		</footer>
   	</div>
