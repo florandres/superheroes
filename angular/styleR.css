@@ -1,0 +1,76 @@
+. {
+	padding: 0px;
+	margin: 0px auto;
+}
+
+body{
+	background-image: url('images/fondo.jpg');
+
+}
+
+
+
+.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.7;
+    filter: alpha(opacity=60);
+    scroll-behavior: fixed;
+   	
+}
+
+header {
+    margin: 0px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 1px;
+    filter: alpha(opacity=80);
+
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    overflow: hidden;
+    background-color: #333;
+    opacity: 1;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: fuenteMayus;
+    font-size: 160%;
+}
+
+@font-face {
+    font-family: fuenteMayus;
+    src: url('/fonts/CapitalisTypOasis.ttf');
+}
+
+.active {
+    background-color: red;
+    color: white;
+}
+
+div #form {
+	float: left;
+}
+
+div #carnet {
+	float right: 
+}
+
+input {
+	margin: 10px;
+}

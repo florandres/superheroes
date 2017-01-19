@@ -8,13 +8,24 @@ body{
 
 }
 
-div.transbox {
+
+
+.transbox {
     margin: 30px;
     background-color: #ffffff;
     border: 1px solid black;
     opacity: 0.7;
     filter: alpha(opacity=60);
     scroll-behavior: fixed;
+}
+
+header {
+    margin: 0px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 1px;
+    filter: alpha(opacity=80);
+
 }
 
 #navbar {

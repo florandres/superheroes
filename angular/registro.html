@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Superheroes</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="styleR.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.js">
+    </script>
+</head>
+<body ng-app>
+	<div class="transbox">
+	  	<header>
+	  		<h1>Superheroes</h1>
+	  	</header>
+		<ul id="navbar">
+			<li><a id="dc" class="active" href="#dc" onclick="change(this.id)">DC</a></li>
+			<li><a id="marvel" href="#marvel" onclick="change(this.id)">Marvel</a></li>
+			<li><a id="animados" href="#animados" onclick="change(this.id)">Animados</a></li>
+		</ul>
+		
+		<div id="form">
+	<form enctype="multipart/form-data" method="post" action="enviar.php">
+		<p>Nombre heroíco: </p> 
+		<input type="text" name="name" ng-model="name" maxlength="20"/>
+		<p>Email: </p>
+		<input type="Email" name="email" maxlength="40" />
+		<p> Equipo: </p>
+		<select name="team">
+			 <option value="0">---Selecciona----</option>
+  			 <option value="justiceleague">Liga de la Justicia</option> 
+  			 <option value="youngjustice">Justicia joven</option>
+  			 <option value="teentitans">Jóvenes titanes</option>
+  			 <option value="suicidesquad">Escuadrón Suicida</option>
+  			 <option value="powerpuff">Chicas Superpoderosas</option>
+  			 <option value="ninjaturtles">Tortugas Ninja</option>
+  			 <option value="incredibles">Los Increíbles</option>
+  			 <option value="guardians">Guardianes de la Galaxia</option>
+  			 <option value="avengers">Los Vengadores</option>
+  			 <option value="xmen">X-men</option>
+  			 <option value="defenders">Defenders</option>
+  			 <option value="fantasticfour">Los 4 Fantásticos</option>
+  		</select>		 
+
+		<input type="reset" value="Restablecer" />
+        <input type="submit" value="Comenzar!">
+		</form></div>
+
+		<div id="carnet">
+			
+		</div>
+		
+
+			<aside></aside>
+
+		<footer>
+			<p> Página hecha en MEAN stack por Flor, Mel y Antu.</p>
+
+		</footer>
+  	</div>
+
+
+</body>
+</html>
