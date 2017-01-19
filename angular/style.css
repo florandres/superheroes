@@ -56,3 +56,11 @@ li a {
 	height: 100px;
 	margin: 10px 10px 10px 10px;
 }
+.batsy{
+    position: absolute;
+    color: #7715D1;
+    font-size: 30px;
+    font-family: verdana;
+    align-self: center;
+
+}
