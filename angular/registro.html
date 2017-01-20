@@ -13,9 +13,8 @@
 	  		<h1>Superheroes</h1>
 	  	</header>
 		<ul id="navbar">
-			<li><a id="dc" class="active" href="#dc" onclick="change(this.id)">DC</a></li>
-			<li><a id="marvel" href="#marvel" onclick="change(this.id)">Marvel</a></li>
-			<li><a id="animados" href="#animados" onclick="change(this.id)">Animados</a></li>
+			<li><a id="dc" href="index.html"> Volver </a></li>
+			
 		</ul>
 		
 		<div id="form">
@@ -69,7 +68,8 @@
 		</footer>
 		<script> 
 		var e = document.getElementById("team");
-		var foto = e.options[e.selectedIndex].value;  
+		var foto = e.options[e.selectedIndex].value;
+		document.getElementById("") 
 		console.log(foto);
 		document.querySelector("#carnet").classList.removeAll();
 		document.querySelector("#carnet").classList.add(foto);   </script>
