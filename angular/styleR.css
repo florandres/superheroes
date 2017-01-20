@@ -74,6 +74,7 @@ div #carnet {
 	border-radius: 30px;
 	padding: 10px;
 	width: 350px;
+	height: 210px;
 
 
 }
@@ -81,6 +82,8 @@ div #carnet {
 #carnet p{
 	margin-left: 20px;
 	font-weight: bold;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black,0 -1px black;
 }
 
 
@@ -104,17 +107,22 @@ footer {
  }
 
  .justiceleague{
- 	background-image: url("images/justiceleague.jpg") ;
+ 	background-image: url("images/justiceleague.png") ;
  	background-size: 100%;
- 	background-repeat: no-repeat;
- 	
  }
+ .youngjustice{
+	background-image: url("images/justiciajoven.png") ;
+ 	background-size: 100%;
+}
+
+ 	
+ 
 
  #foto{
- 	border: 1px solid black;
  	height: 100px;
  	width: 100px;
  	background-image: url("images/nn.png");
  	background-size: 100px 100px;
  }
 
+}
