@@ -1,6 +1,6 @@
 . {
-	padding: 0px;
 	margin: 0px auto;
+	padding: 0px;
 }
 
 body{
@@ -12,21 +12,24 @@ body{
 
 .transbox {
     margin: 30px;
-    background-color: #ffffff;
-    border: 1px solid black;
-    opacity: 0.7;
-    filter: alpha(opacity=60);
+    border: 2px solid black;
+    background-color: rgba(255,255,255,0.7);
     scroll-behavior: fixed;
-   	
+    overflow: auto;
 }
 
 header {
     margin: 0px;
-    background-color: #ffffff;
+    background-color: rgba(255,255,255,0.7);
     border: 1px solid black;
     opacity: 1px;
     filter: alpha(opacity=80);
 
+}
+
+header h1 {
+    text-align: center;
+    font-family: xxxxxx;
 }
 
 #navbar {
@@ -34,7 +37,7 @@ header {
     margin: 0;
     padding: 10;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.85);
     opacity: 1;
 }
 
@@ -77,3 +80,18 @@ div #carnet {
 input {
 	margin: 10px;
 }
+
+footer {
+    margin: 30px;
+    border: 2px solid black;
+    background-color: rgba(255,255,255,0.7);
+}
+
+#form p {
+	margin-left: 10px;
+}
+
+#form select { 
+	margin-left: 10px;
+	min-width: 92%;
+ }

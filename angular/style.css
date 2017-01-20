@@ -27,6 +27,11 @@ header {
 
 }
 
+header h1 {
+    text-align: center;
+    font-family: xxxxxx;
+}
+
 #navbar {
     list-style-type: none;
     margin: 0;
@@ -123,4 +128,11 @@ li a {
     -moz-transform: translateY(40px);
     -webkit-transform: translateY(40px);
     transform: translateY(40px);
+}
+
+
+footer {
+    margin: 30px;
+    border: 2px solid black;
+    background-color: rgba(255,255,255,0.7);
 }

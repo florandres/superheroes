@@ -21,13 +21,13 @@
 		<div id="form">
 	<form enctype="multipart/form-data" method="post">
 		<p>Nombre heroíco: </p> 
-		<input type="text" name="name" ng-model="name" maxlength="20"/>
+		<input type="text" name="name" ng-model="name" maxlength="20" />
 		<p>Email: </p>
 		<input type="Email" name="email" maxlength="40" />
 		<p>Contraseña: </p>
 		<input type="password" name="password" minlength="8" maxlength="20">
 		<p> Equipo: </p>
-		<select name="team">
+		<select name="team" >
 			 <option value="0">---Selecciona----</option>
   			 <option value="justiceleague">Liga de la Justicia</option> 
   			 <option value="youngjustice">Justicia joven</option>
@@ -42,7 +42,7 @@
   			 <option value="defenders">Defenders</option>
   			 <option value="fantasticfour">Los 4 Fantásticos</option>
   		</select>	
-  		<p> Superpoder </p>
+  		<p> Superpoder: </p>
   		<input type="text" name="sp" ng-model="sp">	 
   		<br>
 		<input type="reset" value="Restablecer" />
@@ -54,14 +54,13 @@
 		</div>
 		
 
-			<aside></aside>
 
-		<footer>
+	
+  	</div>
+
+	<footer>
 			<p> Página hecha en MEAN stack por Flor, Mel y Antu.</p>
 
 		</footer>
-  	</div>
-
-
 </body>
 </html>
