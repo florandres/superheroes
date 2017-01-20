@@ -9,7 +9,6 @@ body{
 }
 
 
-
 .transbox {
     margin: 30px;
     border: 2px solid black;
@@ -64,6 +63,7 @@ li a {
 
 div #form {
 	float: left;
+	margin-left: 50px;
 }
 
 div #carnet {
@@ -115,8 +115,56 @@ footer {
  	background-size: 100%;
 }
 
- 	
+.teentitans {
+	background-image: url("images/teentitans.png");
+	background-size: 100%;
+}
+
+.suicidesquad{
+	background-image: url("images/suicidesquad.png");
+	background-size: 100%;
+}
  
+ .powerpuff{
+ 	background-image: url("images/powerpuff.png");
+ 	background-size: 100%;
+ }	
+
+ .ninjaturtles{
+ 	background-image: url("images/ninjaturtles.png");
+ 	background-size: 100%;
+ }
+
+ .incredibles{
+ 	background-image: url("images/incredibles.png");
+ 	background-size: 100%;
+ }
+ 
+.guardians{
+	background-image: url("images/guardians.png");
+ 	background-size: 100%;
+}
+
+.avengers{
+	background-image: url("images/avengers.png");
+	background-size: 100%;
+}
+
+.xmen{
+	background-image: url("images/xmen.png");
+	background-size: 100%;
+}
+
+.defenders{
+	background-image: url("images/defenders.png");
+	background-size: 100%;
+}
+
+.fantasticfour{
+	background-image: url("images/fantasticfour.png");
+	background-size: 100%;
+}
+
 
  #foto{
  	height: 100px;
