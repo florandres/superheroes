@@ -69,6 +69,9 @@ div #form {
 
 div #carnet {
 	float right: 
+	border: 2px black;
+	border-radius: 3px;
+
 }
 
 input {

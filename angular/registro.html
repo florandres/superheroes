@@ -19,11 +19,13 @@
 		</ul>
 		
 		<div id="form">
-	<form enctype="multipart/form-data" method="post" action="enviar.php">
+	<form enctype="multipart/form-data" method="post">
 		<p>Nombre heroíco: </p> 
 		<input type="text" name="name" ng-model="name" maxlength="20"/>
 		<p>Email: </p>
 		<input type="Email" name="email" maxlength="40" />
+		<p>Contraseña: </p>
+		<input type="password" name="password" minlength="8" maxlength="20">
 		<p> Equipo: </p>
 		<select name="team">
 			 <option value="0">---Selecciona----</option>
@@ -39,14 +41,16 @@
   			 <option value="xmen">X-men</option>
   			 <option value="defenders">Defenders</option>
   			 <option value="fantasticfour">Los 4 Fantásticos</option>
-  		</select>		 
-
+  		</select>	
+  		<p> Superpoder </p>
+  		<input type="text" name="sp" ng-model="sp">	 
+  		<br>
 		<input type="reset" value="Restablecer" />
         <input type="submit" value="Comenzar!">
 		</form></div>
 
 		<div id="carnet">
-			
+			hola
 		</div>
 		
 
