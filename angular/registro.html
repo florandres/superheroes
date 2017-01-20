@@ -26,9 +26,9 @@
 		<p>Contraseña: </p>
 		<input type="password" name="password" minlength="8" maxlength="20">
 		<p> Equipo: </p>
-		<select name="team" ng-model="foto" id="team">
+		<select name="team" ng-model="foto" id="team" onchange="cargarFoto()">
 			 <option value="0" selected="selected">-----------Selecciona-----------</option>
-  			 <option value="justiceleague">Liga de la Justicia</option> 
+  			 <option value="justiceleague" >Liga de la Justicia</option> 
   			 <option value="youngjustice">Justicia joven</option>
   			 <option value="teentitans">Jóvenes titanes</option>
   			 <option value="suicidesquad">Escuadrón Suicida</option>
@@ -56,10 +56,7 @@
 			<p> Numero de carnet: 123456 </p>
 			<p> Superpoder: {{sp}} </p>
 		</div>
-		
-
-
-	
+			
   	</div>
 
 	<footer>
@@ -67,11 +64,13 @@
 
 		</footer>
 		<script> 
+		function cargarFoto(){
 		var e = document.getElementById("team");
 		var foto = e.options[e.selectedIndex].value;
-		document.getElementById("") 
 		console.log(foto);
-		document.querySelector("#carnet").classList.removeAll();
-		document.querySelector("#carnet").classList.add(foto);   </script>
+		document.querySelector("#carnet").className="";
+		document.querySelector("#carnet").classList.add(foto);  
+		}
+		 </script>
 </body>
 </html>
