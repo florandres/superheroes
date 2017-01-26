@@ -29,7 +29,7 @@ header {
 
 header h1 {
     text-align: center;
-    font-family: xxxxxx;
+    font-family: 'Kumar One', cursive;
 }
 
 #navbar {
@@ -39,6 +39,7 @@ header h1 {
     overflow: hidden;
     background-color: rgba(51, 51, 51, 0.85);
     opacity: 1;
+     font-family: 'Bungee Shade', cursive;
 }
 
 li {
@@ -52,7 +53,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: fuenteMayus;
+   
     font-size: 160%;
 }
 
