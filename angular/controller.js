@@ -5,16 +5,19 @@ var app = angular.module("MyLogin",['ngRoute']);
 		$routeProvider
 		.when('/login',{
 
-			templateUrl: 'angular/login.html',
-            name : "login"
+			templateUrl: 'login.html',
+            name : "login",
+            controller: "LoginController"
 
 		})
 		.when('/index',{
-			templateUrl: 'angular/index.html',
-            name: "index"         
+			templateUrl: 'index.html',
+            name: "index",
+            controller: "LoginController"
 		})
 		.otherwise({
 			redirectTo: '/login'
+            
 		})
      
 	});
@@ -26,7 +29,8 @@ var app = angular.module("MyLogin",['ngRoute']);
 			var password = $scope.password;
 
 			if($scope.username == 'admin' && $scope.password == 'admin'){
-				$location.path('/index')
+				$location.path('/');
+                
 			}
 			
 		}
