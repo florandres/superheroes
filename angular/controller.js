@@ -1,27 +1,8 @@
-var app = angular.module("MyLogin",['ngRoute']);
-
-
-	app.config(function($routeProvider){
-		$routeProvider
-		.when('/login',{
-
-			templateUrl: 'angular/login.html',
-            name : "login"
-
-		})
-		.when('/index',{
-			templateUrl: 'angular/index.html',
-            name: "index"         
-		})
-		.otherwise({
-			redirectTo: '/login'
-		})
-     
-	});
+var app = angular.module("MyLogin",['ngRoute','Routers']);
 
 
 	app.controller("LoginController",function($scope, $location){
-		$scope.submit = function(){
+			$scope.submit = function(){
 			var uname = $scope.username;
 			var password = $scope.password;
 
@@ -30,4 +11,5 @@ var app = angular.module("MyLogin",['ngRoute']);
 			}
 			
 		}
-	})
+		
+	});
