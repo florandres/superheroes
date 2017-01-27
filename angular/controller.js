@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var app = angular.module("MyLogin",['ngRoute']);
 
 
@@ -21,10 +22,13 @@ var app = angular.module("MyLogin",['ngRoute']);
 		})
      
 	});
+=======
+var app = angular.module("MyLogin",['ngRoute','Routers']);
+>>>>>>> fbe09c3c136fd35b2a297b00952b032cb6b650a4
 
 
 	app.controller("LoginController",function($scope, $location){
-		$scope.submit = function(){
+			$scope.submit = function(){
 			var uname = $scope.username;
 			var password = $scope.password;
 
@@ -34,4 +38,5 @@ var app = angular.module("MyLogin",['ngRoute']);
 			}
 			
 		}
-	})
+		
+	});

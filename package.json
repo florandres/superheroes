@@ -1,0 +1,25 @@
+{
+  "name": "superheroes",
+  "version": "1.0.0",
+  "description": "Hola soy un proyecto re piola.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florandres/superheroes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/florandres/superheroes/issues"
+  },
+  "homepage": "https://github.com/florandres/superheroes",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.7.8"
+  },
+  "devDependencies": {}
+}
